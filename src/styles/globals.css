@@ -1,0 +1,28 @@
+body {
+	background-image: url(../assets/deltoid/bg.jpg);
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	color: white;
+}
+body::before {
+	content: '';
+	height: 150vh;
+	position: absolute;
+	background-color: hsla(212,91%,21%,0.4);
+	width: 100%;
+	padding: 4em 0;
+	z-index: -30;
+}
+
+::-webkit-scrollbar {
+	width: 10px;
+	background-color: #021D3B;
+}
+
+::-webkit-scrollbar-thumb {
+	width: 10px;
+	background-color: #053265;
+	border-radius: 20px;
+}

@@ -1,0 +1,24 @@
+.link-hover::after {
+	content: '';
+	top: 1.5em;
+	left: 0em;
+	height: 1.5px;
+	width: 0px;
+	background-color: yellow;	
+	position: absolute;
+	transition: width 200ms;
+}
+
+.link-hover:hover::after {
+	width: 100%;
+}
+
+
+/* 
+How to use:
+
+<parent style="position: relative;">
+	<child class="link-hover"> Link </child>
+</parent>	
+
+ */
