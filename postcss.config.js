@@ -5,6 +5,11 @@ module.exports = {
     'postcss-font-magician': {
       foundries: "google hosted",
       formats: "woff woff2"
+    },
+    'postcss-uncss': {
+      html: [
+        'index.html'
+      ]
     }
   },
 }

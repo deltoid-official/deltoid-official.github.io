@@ -1,14 +1,9 @@
 <template>
-	<div class="text-center mt-8">
-		<!-- <div>
-			Founder of Deltoid:			
-			<a href="https://www.facebook.com/profile.php?id=100010844087239" target="_blank" class="font-bold hover:brightness-[70%]">Jefferson Melencio</a>
+	<div class="flex flex-col mt-6 items-center">
+		<FullLogo />
+		<div class="text-center max-w-sm mt-5 text-lg">
+			<b>Deltoid</b> aims to improve the quality of communication between parties. We aim to provide the best service for you to deliver your message as clearly, and as pleasing as possible. We do this by enhancing communication strategies through verbal, written, or visual means.
 		</div>
-		<div>
-			Website made by:			
-			<a href="https://www.facebook.com/cl4rk.fb/" target="_blank" class="font-bold hover:brightness-[70%]">John Clark Melencio</a>
-		</div> -->
-		Temporarily unavailable
 	</div>
 </template>
 
