@@ -1,1 +1,0 @@
-import{_ as e,o as t,c as _}from"./index.d32682c5.js";const a={},c={class:"text-center mt-8"};function o(r,s){return t(),_("div",c," Temporarily unavailable ")}var l=e(a,[["render",o],["__scopeId","data-v-e99be700"]]);export{l as default};

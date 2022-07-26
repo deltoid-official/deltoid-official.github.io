@@ -1,0 +1,1 @@
+import{_ as t,o as s,c,a as e,d as o}from"./index.852dea16.js";const a={},n={class:"text-center my-6 justify-center flex-col flex"},_=e("i",{class:"class fas fa-face-sad-tear text-[200px]"},null,-1),r=e("br",null,null,-1),l=o(" 404 page not found "),d=[_,r,l];function f(i,x){return s(),c("div",n,d)}var h=t(a,[["render",f]]);export{h as default};
