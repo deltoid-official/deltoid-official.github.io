@@ -1,1 +1,0 @@
-import{_ as e,o as t,c}from"./index.852dea16.js";const a={},r={class:"text-center my-4"};function o(n,s){return t(),c("div",r," Temporarily unavailable ")}var l=e(a,[["render",o]]);export{l as default};
