@@ -1,3 +1,9 @@
+<script setup>
+const sendMessage = () => {
+	document.location.href = "mailto:deltoidcommissions@gmail.com"
+}
+</script>
+
 <template>
 	<div>
 		<div class="flex items-center flex-col gap-1 my-[4em] mx-9 lg:mx-0">
@@ -19,17 +25,7 @@
 	<Footer />
 </template>
 
-<script>
-export default {
-	methods: {
-		sendMessage(){
-			document.location.href = "mailto:deltoidcommissions@gmail.com"
-		}
-	}
-}
-</script>
 <style>
-
 .transition-brightness {
 	transition: filter 200ms;
 	filter: brightness(1.0);

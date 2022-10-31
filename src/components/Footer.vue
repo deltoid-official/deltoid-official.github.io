@@ -1,3 +1,11 @@
+<script setup lang="ts">
+import '/src/styles/link-hover.css'
+import links from './data'
+import moment from 'moment'
+
+const date = moment(Date.now()).format('LL')
+</script>
+
 <template>
 	<div class="">
 		<div class="bg-[#021D3B]">
@@ -64,20 +72,3 @@
 		</div>
 	</div>
 </template>
-
-<script lang="ts">
-import '/src/styles/link-hover.css'
-import links from './data'
-import moment from 'moment'
-
-const date: string = moment(Date.now()).format('LL')
-
-export default {
-	data(){
-		return {
-			links,
-			date
-		}
-	}
-}
-</script>
