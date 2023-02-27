@@ -11,5 +11,13 @@ export default defineConfig({
     checker({
       typescript: true
     })
-  ]
+  ],
+  resolve: {
+    alias: [
+      {
+        find: "@",
+        replacement: "/src"
+      }
+    ]
+  }
 })

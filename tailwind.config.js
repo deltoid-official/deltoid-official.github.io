@@ -7,8 +7,10 @@ module.exports = {
         raleway: 'Raleway'
       },
       gridTemplateColumns: {
-        nav: '40% 60%',
         footer: '40% 60%'
+      },
+      gridTemplateRows: {
+        website: 'auto 1fr auto'
       }
     },
   },

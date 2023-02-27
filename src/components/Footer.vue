@@ -1,9 +1,9 @@
 <script setup lang="ts">
-import '/src/styles/link-hover.css'
-import links from './data'
-import moment from 'moment'
+import '@/styles/link-hover.css';
+import links from './data';
+import dayjs from 'dayjs';
 
-const date = moment(Date.now()).format('LL')
+const date = dayjs().format('MMMM D, YYYY');
 </script>
 
 <template>

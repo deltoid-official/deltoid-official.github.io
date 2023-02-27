@@ -1,19 +1,28 @@
 body {
-	background-image: url(../assets/deltoid/bg.jpg);
+	background-image: url('../assets/deltoid/bg.jpg');
 	background-attachment: fixed;
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
 	color: white;
+	input {
+		color: black;
+	}
 }
-body::before {
+
+#app::before {
 	content: '';
-	height: 150vh;
+	height: 120vh;
 	position: absolute;
 	background-color: hsla(212,91%,21%,0.4);
 	width: 100%;
-	padding: 4em 0;
 	z-index: -30;
+}
+
+html, body, #app {
+	height: 100%;
+	margin: 0;
+	padding: 0;
 }
 
 ::-webkit-scrollbar {

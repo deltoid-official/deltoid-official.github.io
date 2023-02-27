@@ -1,13 +1,13 @@
 <script setup>
 const sendMessage = () => {
-	document.location.href = "mailto:deltoidcommissions@gmail.com"
+	document.location.href = "mailto:deltoidcommissions@gmail.com";
 }
 </script>
 
 <template>
 	<div>
 		<div class="flex items-center flex-col gap-1 my-[4em] mx-9 lg:mx-0">
-			<img src="../assets/deltoid/deltoid_document_logo.png" alt="" width="330" class="rounded-full border-solid border-4 border-white">
+			<img src="../assets/deltoid/deltoid_document_logo.webp" alt="" width="330" class="rounded-full border-solid border-4 border-white">
 			<div class="font-bold text-6xl mt-8 uppercase">Deltoid</div>
 			<div class="font-light text-2xl italic text-center">Communication made easier</div>
 			<div class="text-2xl uppercase font-bold mt-4 text-center">Multimedia and Writing Services</div>
@@ -21,8 +21,8 @@ const sendMessage = () => {
 				</button>				
 			</div>
 		</div>
+		<Footer class="footer" />
 	</div>
-	<Footer />
 </template>
 
 <style>
