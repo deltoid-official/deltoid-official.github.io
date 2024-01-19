@@ -1,0 +1,1 @@
+import{g as t,o as s,c as a,b as c,a as e}from"./index.046d75ee.js";const o={},n={class:"text-center my-6 justify-center flex-col flex"},r=e("i",{class:"class fas fa-face-sad-tear text-[200px]"},null,-1),l=e("br",null,null,-1);function _(f,d){return s(),a("div",n,[r,l,c(" 404 page not found ")])}var x=t(o,[["render",_]]);export{x as default};
